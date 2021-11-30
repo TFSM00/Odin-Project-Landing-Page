@@ -8,6 +8,7 @@ body {
 
 .header-top {
     display:flex;
+    padding: 0px 20px;
 }
 
 .header-logo {
@@ -34,10 +35,11 @@ a {
 }
 
 .header-bottom {
-    padding: 50px;
+    padding: 50px 20%;
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 a, .awesome-subtext {
@@ -62,6 +64,10 @@ a, .awesome-subtext {
     border: 2px;
 }
 
+.image img{
+    max-height: 500px;
+}
+
 .random-info p{
     text-align: center;
     font-weight: bolder;
@@ -71,7 +77,8 @@ a, .awesome-subtext {
 
 .images {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 100px;
     padding: 50px;
 }
 
@@ -80,13 +87,24 @@ a, .awesome-subtext {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 200px;
+    text-align: center;
+}
+
+.images img {
+    width:200px;
+    height: 130px;
+    border: 2px solid #1F2937;
+    border-radius: 12px;
+    margin-bottom: 4px;
 }
 
 .quote-box {
     background-color: #E5E7EB;
-    padding: 100px 300px;
+    padding: 100px 400px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .quote {
@@ -106,7 +124,7 @@ a, .awesome-subtext {
 }
 
 .sign-up-section {
-    padding: 60px;
+    padding: 60px 400px;
 }
 
 .sign-up {
